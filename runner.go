@@ -1,7 +1,13 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+	"github.com/go-learn-algorithms/sorting"
+)
 
 func main() {
-	fmt.Println("Hello, world!")
+	arr := []int{5,1,4,2,3}
+
+	sorting.MergeSortInitial(arr)
+	fmt.Print(arr)
 }
